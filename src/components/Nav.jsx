@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import LibraryLogo from "../assets/Logo_Typeface_2.svg#svgView(viewBox(0, 0, 32, 32))";
+import LibraryLogo from "../assets/Logo_Typeface_2.svg";
 import { Link } from "react-router-dom";
 
 const Nav = ({ numberOfItems }) => {

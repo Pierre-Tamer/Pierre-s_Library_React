@@ -1,6 +1,6 @@
 import React from "react";
 import UndrawBooks from "../assets/Undraw_Books.svg";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 const Landing = () => {
   return (
     <section id="landing">
@@ -11,7 +11,7 @@ const Landing = () => {
             <h2>
               Find your dream book with <span className="purple">Library</span>
             </h2>
-            <Link to="#features">
+            <Link to="features" smooth={true} duration={500}>
               <button className="btn">Browse books</button>
             </Link>
           </div>
